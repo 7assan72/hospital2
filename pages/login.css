@@ -88,3 +88,9 @@ transition: all 0.5s;
 .login .login__form {
     padding-bottom: 50px;
 }
+.login .login__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -106,6 +106,17 @@
 .login .login__form h2 {
     font-size: 25px;
 }
+.about-patient .about__patinet__text h2{
+    font-size: 22px;
+}
+.about-patient .about__patinet__text ul li span{
+
+    font-size: 17px;
+
+}
+.about-patient .about__patinet__text span:last-child,.about-patient .about__patinet__text p,.about-patient .about__patinet__text ul li p{
+    font-size: 16px;
+}
 }
 
 @media screen and (max-width:768px){
@@ -150,6 +161,12 @@
         object-fit: scale-down;
         margin-top: 40px;
     }
+ 
+    .patient .patient__option .patient__option__choosee2{
+     
+        height: auto;
+    }
+}
 
 
 @media screen and (max-width:600px){
@@ -245,6 +262,11 @@
         top: 26px;
     }
 
+    
+    
+       
+     
+
 }
 
 @media screen and (max-width:425px){
@@ -294,6 +316,19 @@
         }
         .home__img__coluction {
             right: 12%;
+        }
+        .about-patient .about__patinet__text ul li span {
+            font-size: 14.5px;
+        }
+        .about-patient .about__patinet__text ul li i {
+            font-size: 15px;
+            margin-right: 6px;
+        }
+        .about-patient .about__patinet__text h2 {
+            font-size: 17px;
+        }
+        .about-patient .about__patinet__text span:last-child,.about-patient .about__patinet__text p,.about-patient .about__patinet__text ul li p{
+            font-size: 15px;
         }
 }
 

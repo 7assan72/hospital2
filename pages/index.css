@@ -32,6 +32,11 @@
     text-align: center;
     padding: 25px 20px;
     position: relative;
+
+
+}
+.patient .patient__option .patient__option__choosee2{
+    height: 240px;
 }
 .patient .patient__option .patient__option__choosee i{
     color: #4d93e9;
