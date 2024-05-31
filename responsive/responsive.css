@@ -117,6 +117,36 @@
 .about-patient .about__patinet__text span:last-child,.about-patient .about__patinet__text p,.about-patient .about__patinet__text ul li p{
     font-size: 16px;
 }
+.dropdown-menu {
+
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+.dropdown .dropdown__btn{
+    margin-top: 0px;
+    margin-left: -15px;
+}
+.header .navbar-nav li a {
+   
+    text-align: start;
+}
+.dropdown-menu {
+ 
+    background: transparent;
+    box-shadow: none;
+    margin: -19px 0px;
+}
+.dropdown-menu li{
+    margin-bottom: -5px;
+
+}
+.header .navbar-nav li {
+    padding-right: 18px;
+    padding: 4px 18px 0px 0px;
+}
+
 }
 
 @media screen and (max-width:768px){
