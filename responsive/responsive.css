@@ -146,7 +146,13 @@
     padding-right: 18px;
     padding: 4px 18px 0px 0px;
 }
-
+.contact h2,.contact__datiles .contact__datiles__text h3{
+    font-family:gothamseven ;
+    font-size: 22px;
+}
+.contact__datiles__info__text h4 {
+    font-size: 20px ;
+}
 }
 
 @media screen and (max-width:768px){
@@ -195,6 +201,11 @@
     .patient .patient__option .patient__option__choosee2{
      
         height: auto;
+    }
+    .contact__datiles {
+        padding: 0px 0px;
+        margin-top: 40px;
+        
     }
 }
 
@@ -291,7 +302,10 @@
         height: 182px;
         top: 26px;
     }
-
+    .contact h2{
+        font-family:gothamfive ;
+        font-size: 20px;
+    }
     
     
        
